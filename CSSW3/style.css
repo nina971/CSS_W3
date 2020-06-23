@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+/* header */
+.header{
+  background-color: green;
+  text-align: center;
+  padding: 20px;
+}
+
+.navigasi{
+  overflow: hidden;
+  background-color: #333;
+}
+
+/*  style navigasi*/
+.navigasi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/*  warna dari block linknya*/
+.navigasi a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:800px) {
+  .column {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:400px){
+  .navigasi a{
+    float: none;
+    width: 100%;
+  }
+}
+
+.footer{
+  padding: 10px;
+  text-align: center;
+  background-color: green;
+}

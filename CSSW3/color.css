@@ -1,0 +1,40 @@
+/* h1{
+  background-color: blue;
+}
+p{
+  background-color: red;
+} */
+
+/* h1{
+  color: Tomato;
+}
+p{
+  color: DodgerBlue;
+}
+.p1{
+  color: MediumSeaGreen;
+} */
+
+/*  CSS BOrder Color*/
+/* h1{
+  border: 2px solid Tomato;
+}
+
+p{
+  border: 2px solid DodgerBlue;
+}
+.p1{
+  border: 2px solid Violet;
+} */
+
+/*  Color Value*/
+
+h1{
+  background-color: rgb(255,99,71);
+}
+p{
+  background-color: #ff6347;
+}
+.p1{
+  background-color: hsl(9,100%,64%);
+}

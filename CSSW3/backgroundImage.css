@@ -1,0 +1,23 @@
+/*  ini backgroundImage*/
+
+/* body{
+  background-image: url('img/paper.gif');
+} */
+
+/*  ini background repeat*/
+/* body{
+  background-image: url('img/ggg.png');
+  /* background-repeat: repeat-x; */
+  /* background-repeat: no-repeat;
+  background-position: right top;
+} */
+
+/*  ini background attachment*/
+body{
+  background-image: url('img/ggg.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  /* background-attachment: fixed; */
+  background-attachment: scroll;
+  background-size: auto;
+}
