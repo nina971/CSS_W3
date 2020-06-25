@@ -1,0 +1,107 @@
+/* semua satu halaman distyle border box */
+*{
+  box-sizing: border-box;
+}
+
+/* body */
+.body{
+  margin: 0;
+}
+
+/* Header */
+.Header{
+  padding: 30px;
+  background-image: url('img/paper.gif');
+  background-size: cover;
+  background-position: center;
+}
+ h1{
+  font-size: 85px;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0,0, 0.2);
+  font-family: Verdana;
+  text-align: center;
+}
+
+/* navigasi pembungkus */
+.navigasi{
+  overflow: hidden;
+  background-color: darkslategray;
+  font-family: verdana;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* navigasi link */
+.navigasi a{
+  text-decoration: none;
+  padding: 14px 16px;
+  float: left;
+  text-align: center;
+  display: block;
+  color: black;
+  text-overflow: clip;
+  /* background-color: dimgray; */
+}
+.navigasi a:hover{
+  color: black;
+  background-color: darkgray;
+  display: flex;
+}
+
+.row:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+.isikiri{
+  float: left;
+  width: 45%;
+  /* height: 45%; */
+  padding-right: 20px;
+}
+
+.isikanan{
+  width: 25%;
+  float: left;
+  /* background-color: tomato; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.fakeimg{
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.kartu{
+  background-color: lightslategray;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.footer{
+  padding: 20px;
+  text-align: center;
+  background-color: #ddd;
+}
+
+@media screen and (max-width: 600px){
+  .isikiri, .isikanan{
+    width: 100px;
+    padding: 0;
+  }
+}
+
+/* @media screen and (max-width: 600px){
+  .row, .navigasi{
+    flex-direction: column;
+  }
+} */
+
+@media screen and (max-width: 600px){
+    .navigasi a{
+    width: 100px;
+    float: none;
+  }
+}
